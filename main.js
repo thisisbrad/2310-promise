@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const fetchAPI = () => {
-    const url = `https://jsonplaceholder.typicode.com/posts/1`;
+    const url = `https://jsonplaceholder.typicode.com/posts/3`;
 
     return fetch(url)
       .then((response) => {
